@@ -8,7 +8,8 @@ public class bai5 {
         System.out.println("Nhập giá trị bán kính");
         float banKinh = sc.nextFloat();
         System.out.println("Ban kính là:" + banKinh);
-        System.out.println("Chu vi hình tròn là:" + banKinh * 2 * 3.14);
-        System.out.println("Diên tích hình tròn là:" + banKinh * banKinh * 3.14);
+        final float PI = 3.14f;
+        System.out.println("Chu vi hình tròn là:" + banKinh * 2 * PI);
+        System.out.println("Diên tích hình tròn là:" + banKinh * banKinh * PI);
     }
 }
